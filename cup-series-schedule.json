@@ -4,5 +4,17 @@
     "raceName": "FireKeepers Casino 400",
     "raceDate": "2026-06-07",
     "laps": 200
+  },
+  {
+    "trackName": "Autodromo Hermanos Rodriguez",
+    "raceName": "Mexico City",
+    "raceDate": "2026-06-14",
+    "laps": 100
+  },
+  {
+    "trackName": "Pocono Raceway",
+    "raceName": "The Great American Getaway 400",
+    "raceDate": "2026-06-21",
+    "laps": 160
   }
 ]
