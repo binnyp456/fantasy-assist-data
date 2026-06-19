@@ -1,14 +1,11 @@
 [
   {
-    "trackName": "Michigan International Speedway",
-    "raceName": "FireKeepers Casino 400",
-    "raceDate": "2025-06-07",
-    "laps": 200
-  },
-  {
     "trackName": "Pocono Raceway",
     "raceName": "The Great American Getaway 400",
     "raceDate": "2026-07-21",
-    "laps": 160
+    "laps": 160,
+    "raceNumber": 21,
+    "trackType": "Superspeedway",
+    "distance": 400
   }
 ]
