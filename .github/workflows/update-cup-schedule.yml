@@ -1,0 +1,57 @@
+name: Update Cup Schedule
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-schedule:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Download NASCAR schedule
+        run: curl -L https://cf.nascar.com/cacher/2026/race_list_basic.json -o nascar-schedule.json
+
+      - name: Convert Cup schedule
+        run: |
+          python3 - <<'PY'
+          import json
+
+          with open("nascar-schedule.json", "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          cup_races = data["series_1"]
+
+          simplified = {
+              "season": 2026,
+              "series": "Cup",
+              "races": []
+          }
+
+          for index, race in enumerate(cup_races, start=1):
+              simplified["races"].append({
+                  "trackName": race.get("track_name", ""),
+                  "raceName": race.get("race_name", ""),
+                  "raceDate": race.get("race_date", ""),
+                  "laps": race.get("scheduled_laps", 0),
+                  "raceNumber": index,
+                  "trackType": "",
+                  "distance": race.get("scheduled_distance", 0)
+              })
+
+          with open("cup-series-schedule.json", "w", encoding="utf-8") as f:
+              json.dump(simplified, f, indent=2)
+          PY
+
+      - name: Commit updated schedule
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add cup-series-schedule.json
+          git commit -m "Update Cup Series schedule" || echo "No changes to commit"
+          git push
