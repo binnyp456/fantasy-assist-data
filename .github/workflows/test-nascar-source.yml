@@ -1,0 +1,13 @@
+name: Test NASCAR Source
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-source:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test NASCAR schedule URL
+        run: |
+          curl -L -I https://cf.nascar.com/cacher/2026/race_list_basic.json
