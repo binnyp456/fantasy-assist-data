@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Test NASCAR schedule URL
+      - name: Download NASCAR schedule
         run: |
-          curl -L -I https://cf.nascar.com/cacher/2026/race_list_basic.json
+          curl -L https://cf.nascar.com/cacher/2026/race_list_basic.json -o schedule.json
+
+      - name: Show first 25 lines
+        run: |
+          head -25 schedule.json
