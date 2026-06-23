@@ -25,7 +25,15 @@ jobs:
           with open("nascar-schedule.json", "r", encoding="utf-8") as f:
               data = json.load(f)
 
-          cup_races = data["series_1"]
+          excluded_names = ["Clash", "Duel", "All-Star"]
+
+          cup_races = [
+              race for race in data["series_1"]
+              if not any(
+                  name in race.get("race_name", "")
+                  for name in excluded_names
+              )
+          ]
 
           simplified = {
               "season": 2026,
@@ -46,6 +54,8 @@ jobs:
 
           with open("cup-series-schedule.json", "w", encoding="utf-8") as f:
               json.dump(simplified, f, indent=2)
+
+          print(f"Saved {len(cup_races)} Cup races")
           PY
 
       - name: Commit updated schedule
