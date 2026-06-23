@@ -3,22 +3,364 @@
   "series": "Cup",
   "races": [
     {
+      "trackName": "Bowman Gray Stadium",
+      "raceName": "Cook Out Clash at Bowman Gray",
+      "raceDate": "2026-02-04T18:00:00",
+      "laps": 200,
+      "raceNumber": 1,
+      "trackType": "",
+      "distance": 50.6
+    },
+    {
+      "trackName": "Daytona International Speedway",
+      "raceName": "America 250 Florida Duel at DAYTONA",
+      "raceDate": "2026-02-12T19:00:00",
+      "laps": 60,
+      "raceNumber": 2,
+      "trackType": "",
+      "distance": 150
+    },
+    {
+      "trackName": "Daytona International Speedway",
+      "raceName": "America 250 Florida Duel at DAYTONA",
+      "raceDate": "2026-02-12T20:45:00",
+      "laps": 60,
+      "raceNumber": 3,
+      "trackType": "",
+      "distance": 150
+    },
+    {
+      "trackName": "Daytona International Speedway",
+      "raceName": "DAYTONA 500",
+      "raceDate": "2026-02-15T14:30:00",
+      "laps": 200,
+      "raceNumber": 4,
+      "trackType": "",
+      "distance": 500
+    },
+    {
+      "trackName": "Atlanta Motor Speedway",
+      "raceName": "Autotrader 400",
+      "raceDate": "2026-02-22T15:00:00",
+      "laps": 260,
+      "raceNumber": 5,
+      "trackType": "",
+      "distance": 400.4
+    },
+    {
+      "trackName": "Circuit of The Americas",
+      "raceName": "DuraMAX Texas Grand Prix Powered by RelaDyne",
+      "raceDate": "2026-03-01T15:30:00",
+      "laps": 95,
+      "raceNumber": 6,
+      "trackType": "",
+      "distance": 228
+    },
+    {
+      "trackName": "Phoenix Raceway",
+      "raceName": "Straight Talk Wireless 500",
+      "raceDate": "2026-03-08T15:30:00",
+      "laps": 312,
+      "raceNumber": 7,
+      "trackType": "",
+      "distance": 312
+    },
+    {
+      "trackName": "Las Vegas Motor Speedway",
+      "raceName": "Pennzoil 400 presented by Jiffy Lube",
+      "raceDate": "2026-03-15T16:00:00",
+      "laps": 267,
+      "raceNumber": 8,
+      "trackType": "",
+      "distance": 400.5
+    },
+    {
+      "trackName": "Darlington Raceway",
+      "raceName": "Goodyear 400",
+      "raceDate": "2026-03-22T15:00:00",
+      "laps": 293,
+      "raceNumber": 9,
+      "trackType": "",
+      "distance": 400.24
+    },
+    {
+      "trackName": "Martinsville Speedway",
+      "raceName": "Cook Out 400",
+      "raceDate": "2026-03-29T15:30:00",
+      "laps": 400,
+      "raceNumber": 10,
+      "trackType": "",
+      "distance": 210.4
+    },
+    {
+      "trackName": "Bristol Motor Speedway",
+      "raceName": "Food City 500",
+      "raceDate": "2026-04-12T15:00:00",
+      "laps": 500,
+      "raceNumber": 11,
+      "trackType": "",
+      "distance": 266.5
+    },
+    {
+      "trackName": "Kansas Speedway",
+      "raceName": "AdventHealth 400",
+      "raceDate": "2026-04-19T13:00:00",
+      "laps": 267,
+      "raceNumber": 12,
+      "trackType": "",
+      "distance": 400.5
+    },
+    {
+      "trackName": "Talladega Superspeedway",
+      "raceName": "Jack Link's 500",
+      "raceDate": "2026-04-26T15:00:00",
+      "laps": 188,
+      "raceNumber": 13,
+      "trackType": "",
+      "distance": 500.08
+    },
+    {
+      "trackName": "Texas Motor Speedway",
+      "raceName": "W\u00fcrth 400 presented by LIQUI MOLY",
+      "raceDate": "2026-05-03T15:30:00",
+      "laps": 267,
+      "raceNumber": 14,
+      "trackType": "",
+      "distance": 400.5
+    },
+    {
+      "trackName": "Watkins Glen International",
+      "raceName": "Go Bowling at The Glen",
+      "raceDate": "2026-05-10T15:00:00",
+      "laps": 100,
+      "raceNumber": 15,
+      "trackType": "",
+      "distance": 245
+    },
+    {
+      "trackName": "Dover Motor Speedway",
+      "raceName": "NASCAR All-Star Race",
+      "raceDate": "2026-05-17T13:00:00",
+      "laps": 350,
+      "raceNumber": 16,
+      "trackType": "",
+      "distance": 350
+    },
+    {
+      "trackName": "Charlotte Motor Speedway",
+      "raceName": "Coca-Cola 600",
+      "raceDate": "2026-05-24T18:00:00",
+      "laps": 400,
+      "raceNumber": 17,
+      "trackType": "",
+      "distance": 600
+    },
+    {
+      "trackName": "Nashville Superspeedway",
+      "raceName": "Cracker Barrel 400",
+      "raceDate": "2026-05-31T19:00:00",
+      "laps": 300,
+      "raceNumber": 18,
+      "trackType": "",
+      "distance": 399
+    },
+    {
       "trackName": "Michigan International Speedway",
       "raceName": "FireKeepers Casino 400",
-      "raceDate": "2025-06-07",
+      "raceDate": "2026-06-07T15:00:00",
       "laps": 200,
-      "raceNumber": 15,
-      "trackType": "Intermediate",
+      "raceNumber": 19,
+      "trackType": "",
       "distance": 400
     },
     {
       "trackName": "Pocono Raceway",
-      "raceName": "The Great American Getaway 400",
-      "raceDate": "2026-07-21",
+      "raceName": "Great American Getaway 400 presented by VISITPA",
+      "raceDate": "2026-06-14T15:00:00",
       "laps": 160,
-      "raceNumber": 21,
-      "trackType": "Superspeedway",
+      "raceNumber": 20,
+      "trackType": "",
       "distance": 400
+    },
+    {
+      "trackName": "San Diego Street Course",
+      "raceName": "Anduril 250",
+      "raceDate": "2026-06-21T16:00:00",
+      "laps": 75,
+      "raceNumber": 21,
+      "trackType": "",
+      "distance": 255
+    },
+    {
+      "trackName": "Sonoma Raceway",
+      "raceName": "Toyota / Save Mart 350",
+      "raceDate": "2026-06-28T15:30:00",
+      "laps": 110,
+      "raceNumber": 22,
+      "trackType": "",
+      "distance": 218.9
+    },
+    {
+      "trackName": "Chicagoland Speedway",
+      "raceName": "eero 400",
+      "raceDate": "2026-07-05T18:00:00",
+      "laps": 267,
+      "raceNumber": 23,
+      "trackType": "",
+      "distance": 400
+    },
+    {
+      "trackName": "Atlanta Motor Speedway",
+      "raceName": "Quaker State 400 Available at Walmart",
+      "raceDate": "2026-07-12T19:00:00",
+      "laps": 260,
+      "raceNumber": 24,
+      "trackType": "",
+      "distance": 400.4
+    },
+    {
+      "trackName": "North Wilkesboro Speedway",
+      "raceName": "Window World 450",
+      "raceDate": "2026-07-19T19:00:00",
+      "laps": 450,
+      "raceNumber": 25,
+      "trackType": "",
+      "distance": 281.25
+    },
+    {
+      "trackName": "Indianapolis Motor Speedway",
+      "raceName": "Brickyard 400",
+      "raceDate": "2026-07-26T14:00:00",
+      "laps": 160,
+      "raceNumber": 26,
+      "trackType": "",
+      "distance": 400
+    },
+    {
+      "trackName": "Iowa Speedway",
+      "raceName": "Iowa Corn 350 Powered by Ethanol",
+      "raceDate": "2026-08-09T15:30:00",
+      "laps": 350,
+      "raceNumber": 27,
+      "trackType": "",
+      "distance": 306.25
+    },
+    {
+      "trackName": "Richmond Raceway",
+      "raceName": "Cook Out 400",
+      "raceDate": "2026-08-15T19:00:00",
+      "laps": 400,
+      "raceNumber": 28,
+      "trackType": "",
+      "distance": 300
+    },
+    {
+      "trackName": "New Hampshire Motor Speedway",
+      "raceName": "Dollar Tree 301",
+      "raceDate": "2026-08-23T15:00:00",
+      "laps": 301,
+      "raceNumber": 29,
+      "trackType": "",
+      "distance": 318.46
+    },
+    {
+      "trackName": "Daytona International Speedway",
+      "raceName": "Coke Zero Sugar 400",
+      "raceDate": "2026-08-29T19:30:00",
+      "laps": 160,
+      "raceNumber": 30,
+      "trackType": "",
+      "distance": 400
+    },
+    {
+      "trackName": "Darlington Raceway",
+      "raceName": "Cook Out Southern 500",
+      "raceDate": "2026-09-06T17:00:00",
+      "laps": 367,
+      "raceNumber": 31,
+      "trackType": "",
+      "distance": 501.32
+    },
+    {
+      "trackName": "World Wide Technology Raceway",
+      "raceName": "Enjoy Illinois 300",
+      "raceDate": "2026-09-13T15:00:00",
+      "laps": 240,
+      "raceNumber": 32,
+      "trackType": "",
+      "distance": 300
+    },
+    {
+      "trackName": "Bristol Motor Speedway",
+      "raceName": "Bass Pro Shops Night Race",
+      "raceDate": "2026-09-19T19:30:00",
+      "laps": 500,
+      "raceNumber": 33,
+      "trackType": "",
+      "distance": 266.5
+    },
+    {
+      "trackName": "Kansas Speedway",
+      "raceName": "Hollywood Casino 400 ",
+      "raceDate": "2026-09-27T15:00:00",
+      "laps": 267,
+      "raceNumber": 34,
+      "trackType": "",
+      "distance": 400.5
+    },
+    {
+      "trackName": "Las Vegas Motor Speedway",
+      "raceName": "South Point 400",
+      "raceDate": "2026-10-04T17:30:00",
+      "laps": 267,
+      "raceNumber": 35,
+      "trackType": "",
+      "distance": 400.5
+    },
+    {
+      "trackName": "Charlotte Motor Speedway",
+      "raceName": "Bank of America 400",
+      "raceDate": "2026-10-11T15:00:00",
+      "laps": 267,
+      "raceNumber": 36,
+      "trackType": "",
+      "distance": 400.5
+    },
+    {
+      "trackName": "Phoenix Raceway",
+      "raceName": "Freeway Insurance 500",
+      "raceDate": "2026-10-18T15:00:00",
+      "laps": 312,
+      "raceNumber": 37,
+      "trackType": "",
+      "distance": 312
+    },
+    {
+      "trackName": "Talladega Superspeedway",
+      "raceName": "YellaWood 500",
+      "raceDate": "2026-10-25T14:00:00",
+      "laps": 188,
+      "raceNumber": 38,
+      "trackType": "",
+      "distance": 500.08
+    },
+    {
+      "trackName": "Martinsville Speedway",
+      "raceName": "Xfinity 500",
+      "raceDate": "2026-11-01T14:00:00",
+      "laps": 500,
+      "raceNumber": 39,
+      "trackType": "",
+      "distance": 263
+    },
+    {
+      "trackName": "Homestead-Miami Speedway",
+      "raceName": "NASCAR Championship Race",
+      "raceDate": "2026-11-08T15:00:00",
+      "laps": 267,
+      "raceNumber": 40,
+      "trackType": "",
+      "distance": 400.5
     }
   ]
 }
