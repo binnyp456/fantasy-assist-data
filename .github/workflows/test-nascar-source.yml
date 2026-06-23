@@ -9,14 +9,8 @@ jobs:
 
     steps:
       - name: Download NASCAR schedule
-        run: |
-          curl -L https://cf.nascar.com/cacher/2026/race_list_basic.json -o schedule.json
+        run: curl -L https://cf.nascar.com/cacher/2026/race_list_basic.json -o schedule.json
 
       - name: Show top level keys
         run: |
-          python3 -c "
-import json
-with open('schedule.json') as f:
-    data = json.load(f)
-print(list(data.keys()))
-"
+          python3 -c "import json; print(list(json.load(open('schedule.json')).keys()))"
