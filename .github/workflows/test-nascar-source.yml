@@ -12,6 +12,11 @@ jobs:
         run: |
           curl -L https://cf.nascar.com/cacher/2026/race_list_basic.json -o schedule.json
 
-      - name: Show first 25 lines
+      - name: Show top level keys
         run: |
-          head -25 schedule.json
+          python3 -c "
+import json
+with open('schedule.json') as f:
+    data = json.load(f)
+print(list(data.keys()))
+"
