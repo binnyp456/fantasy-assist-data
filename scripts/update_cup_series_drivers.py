@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 
 
 SOURCE_URL = "https://www.nascar.com/drivers/nascar-cup-series/"
-ENTRY_LIST_URL = "https://www.nascar.com/results/racecenter/2026/nascar-cup-series/sonoma-raceway/"
+ENTRY_LIST_URL = "https://www.nascar.com/news-media/2026/06/22/2026-nascar-cup-series-entry-list-for-sonoma-raceway/"
 OUTPUT_PATH = Path("cup-series-drivers.json")
 
 TEAM_MANUFACTURERS = {
