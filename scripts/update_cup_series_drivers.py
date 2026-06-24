@@ -141,15 +141,26 @@ def main() -> None:
     if len(drivers) < 20:
         raise RuntimeError(f"Expected at least 20 Cup drivers, found {len(drivers)}.")
 
+    generated_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
     output = {
         "season": datetime.now(timezone.utc).year,
         "series": "Cup",
         "sourceUrl": SOURCE_URL,
-        "generatedAtUtc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "generatedAtUtc": generated_at,
         "drivers": drivers,
     }
 
     output_path = Path(args.output)
+    if output_path.exists():
+        existing = json.loads(output_path.read_text(encoding="utf-8"))
+        existing_compare = dict(existing)
+        output_compare = dict(output)
+        existing_compare.pop("generatedAtUtc", None)
+        output_compare.pop("generatedAtUtc", None)
+
+        if existing_compare == output_compare:
+            output["generatedAtUtc"] = existing.get("generatedAtUtc", generated_at)
+
     output_path.write_text(json.dumps(output, indent=2) + "\n", encoding="utf-8")
     print(f"Saved {len(drivers)} Cup drivers to {output_path}")
 
