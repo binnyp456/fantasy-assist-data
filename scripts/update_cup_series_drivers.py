@@ -12,7 +12,28 @@ from bs4 import BeautifulSoup
 
 
 SOURCE_URL = "https://www.nascar.com/drivers/nascar-cup-series/"
+ENTRY_LIST_URL = "https://www.nascar.com/results/racecenter/2026/nascar-cup-series/sonoma-raceway/"
 OUTPUT_PATH = Path("cup-series-drivers.json")
+
+TEAM_MANUFACTURERS = {
+    "23XI Racing": "Toyota",
+    "Front Row Motorsports": "Ford",
+    "Garage 66": "Ford",
+    "Haas Factory Team": "Chevrolet",
+    "Hendrick Motorsports": "Chevrolet",
+    "HYAK Motorsports": "Chevrolet",
+    "Hyak Motorsports": "Chevrolet",
+    "Joe Gibbs Racing": "Toyota",
+    "Kaulig Racing": "Chevrolet",
+    "Legacy Motor Club": "Toyota",
+    "RFK Racing": "Ford",
+    "Richard Childress Racing": "Chevrolet",
+    "Rick Ware Racing": "Chevrolet",
+    "Spire Motorsports": "Chevrolet",
+    "Team Penske": "Ford",
+    "Trackhouse Racing": "Chevrolet",
+    "Wood Brothers Racing": "Ford",
+}
 
 
 def clean_text(value: str) -> str:
@@ -90,7 +111,43 @@ def load_driver_page() -> BeautifulSoup:
     return BeautifulSoup(response.text, "html.parser")
 
 
-def parse_drivers(soup: BeautifulSoup) -> list[dict[str, object]]:
+def load_entry_list_page() -> BeautifulSoup:
+    response = requests.get(
+        ENTRY_LIST_URL,
+        headers={"User-Agent": "FantasyAssist data updater"},
+        timeout=30,
+    )
+    response.raise_for_status()
+
+    return BeautifulSoup(response.text, "html.parser")
+
+
+def extract_car_number(text: str) -> str:
+    match = re.search(r"Car number\s+([A-Za-z0-9-]+)", text, re.IGNORECASE)
+    return clean_text(match.group(1)) if match else ""
+
+
+def parse_entry_list_teams(soup: BeautifulSoup) -> dict[str, str]:
+    lines = [clean_text(line) for line in soup.get_text("\n").splitlines()]
+    lines = [line for line in lines if line]
+    teams_by_number: dict[str, str] = {}
+
+    known_teams = set(TEAM_MANUFACTURERS)
+
+    for index, line in enumerate(lines):
+        car_number = extract_car_number(line)
+        if not car_number:
+            continue
+
+        for candidate in lines[index + 1:index + 12]:
+            if candidate in known_teams:
+                teams_by_number[car_number] = candidate
+                break
+
+    return teams_by_number
+
+
+def parse_drivers(soup: BeautifulSoup, teams_by_number: dict[str, str]) -> list[dict[str, object]]:
     anchors_by_name: dict[str, str] = {}
     for anchor in soup.find_all("a"):
         name = clean_text(anchor.get_text(" "))
@@ -110,14 +167,15 @@ def parse_drivers(soup: BeautifulSoup) -> list[dict[str, object]]:
         car_number = clean_text(match.group("number"))
         first_name, last_name = split_driver_name(full_name)
         card = find_driver_card(image)
+        team_name = teams_by_number.get(car_number, "")
 
         driver = {
             "firstName": first_name,
             "lastName": last_name,
             "displayName": full_name,
             "carNumber": car_number,
-            "teamName": "",
-            "manufacturer": detect_manufacturer(card),
+            "teamName": team_name,
+            "manufacturer": TEAM_MANUFACTURERS.get(team_name, detect_manufacturer(card)),
             "headshotUrl": "",
             "driverPageUrl": anchors_by_name.get(full_name.lower(), ""),
         }
@@ -136,7 +194,9 @@ def main() -> None:
     args = parser.parse_args()
 
     soup = load_driver_page()
-    drivers = parse_drivers(soup)
+    entry_list_soup = load_entry_list_page()
+    teams_by_number = parse_entry_list_teams(entry_list_soup)
+    drivers = parse_drivers(soup, teams_by_number)
 
     if len(drivers) < 20:
         raise RuntimeError(f"Expected at least 20 Cup drivers, found {len(drivers)}.")
@@ -146,6 +206,7 @@ def main() -> None:
         "season": datetime.now(timezone.utc).year,
         "series": "Cup",
         "sourceUrl": SOURCE_URL,
+        "entryListUrl": ENTRY_LIST_URL,
         "generatedAtUtc": generated_at,
         "drivers": drivers,
     }
