@@ -2,7 +2,7 @@
   "season": 2026,
   "series": "Cup",
   "sourceUrl": "https://www.nascar.com/drivers/nascar-cup-series/",
-  "generatedAtUtc": "2026-06-24T00:00:00+00:00",
+  "generatedAtUtc": "2026-06-24T15:09:49+00:00",
   "drivers": [
     {
       "firstName": "Ross",
@@ -12,7 +12,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/ross-chastain"
     },
     {
       "firstName": "Austin",
@@ -22,7 +22,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/austin-cindric"
     },
     {
       "firstName": "Austin",
@@ -32,7 +32,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/austin-dillon"
     },
     {
       "firstName": "Noah",
@@ -42,7 +42,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/noah-gragson"
     },
     {
       "firstName": "Kyle",
@@ -52,7 +52,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/kyle-larson"
     },
     {
       "firstName": "Brad",
@@ -62,7 +62,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/brad-keselowski"
     },
     {
       "firstName": "Daniel",
@@ -72,17 +72,17 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/daniel-suarez"
     },
     {
       "firstName": "Chase",
       "lastName": "Elliott",
       "displayName": "Chase Elliott",
       "carNumber": "9",
-      "teamName": "Hendrick Motorsports",
-      "manufacturer": "Chevrolet",
+      "teamName": "",
+      "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/chase-elliott"
     },
     {
       "firstName": "Ty",
@@ -92,7 +92,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/ty-dillon"
     },
     {
       "firstName": "Denny",
@@ -102,7 +102,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/denny-hamlin"
     },
     {
       "firstName": "Ryan",
@@ -112,7 +112,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/ryan-blaney"
     },
     {
       "firstName": "AJ",
@@ -122,7 +122,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/aj-allmendinger"
     },
     {
       "firstName": "Chris",
@@ -132,7 +132,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/chris-buescher"
     },
     {
       "firstName": "Chase",
@@ -142,7 +142,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/chase-briscoe"
     },
     {
       "firstName": "Christopher",
@@ -152,7 +152,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/christopher-bell"
     },
     {
       "firstName": "Josh",
@@ -162,7 +162,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/josh-berry/"
     },
     {
       "firstName": "Joey",
@@ -172,7 +172,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/joey-logano"
     },
     {
       "firstName": "Bubba",
@@ -182,7 +182,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/bubba-wallace"
     },
     {
       "firstName": "William",
@@ -192,7 +192,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/william-byron"
     },
     {
       "firstName": "Todd",
@@ -202,7 +202,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/todd-gilliland"
     },
     {
       "firstName": "Riley",
@@ -212,7 +212,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/riley-herbst/"
     },
     {
       "firstName": "Zane",
@@ -222,7 +222,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/zane-smith/"
     },
     {
       "firstName": "Cole",
@@ -232,7 +232,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/cole-custer/"
     },
     {
       "firstName": "John",
@@ -242,7 +242,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/john-hunter-nemechek/"
     },
     {
       "firstName": "Erik",
@@ -252,7 +252,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/erik-jones"
     },
     {
       "firstName": "Tyler",
@@ -262,7 +262,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/tyler-reddick"
     },
     {
       "firstName": "Ricky",
@@ -272,7 +272,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/ricky-stenhouse-jr"
     },
     {
       "firstName": "Alex",
@@ -282,7 +282,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/alex-bowman"
     },
     {
       "firstName": "Cody",
@@ -292,7 +292,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/cody-ware"
     },
     {
       "firstName": "Ty",
@@ -302,7 +302,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/ty-gibbs-1"
     },
     {
       "firstName": "Ryan",
@@ -312,7 +312,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/ryan-preece"
     },
     {
       "firstName": "Michael",
@@ -322,7 +322,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/michael-mcdowell"
     },
     {
       "firstName": "Carson",
@@ -332,7 +332,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/carson-hocevar/"
     },
     {
       "firstName": "Connor",
@@ -342,7 +342,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/connor-zilisch"
     },
     {
       "firstName": "Shane",
@@ -352,7 +352,7 @@
       "teamName": "",
       "manufacturer": "",
       "headshotUrl": "",
-      "driverPageUrl": ""
+      "driverPageUrl": "https://www.nascar.com/drivers/shane-van-gisbergen"
     }
   ]
 }
