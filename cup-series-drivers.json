@@ -1,0 +1,358 @@
+{
+  "season": 2026,
+  "series": "Cup",
+  "sourceUrl": "https://www.nascar.com/drivers/nascar-cup-series/",
+  "generatedAtUtc": "2026-06-24T00:00:00+00:00",
+  "drivers": [
+    {
+      "firstName": "Ross",
+      "lastName": "Chastain",
+      "displayName": "Ross Chastain",
+      "carNumber": "1",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Austin",
+      "lastName": "Cindric",
+      "displayName": "Austin Cindric",
+      "carNumber": "2",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Austin",
+      "lastName": "Dillon",
+      "displayName": "Austin Dillon",
+      "carNumber": "3",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Noah",
+      "lastName": "Gragson",
+      "displayName": "Noah Gragson",
+      "carNumber": "4",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Kyle",
+      "lastName": "Larson",
+      "displayName": "Kyle Larson",
+      "carNumber": "5",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Brad",
+      "lastName": "Keselowski",
+      "displayName": "Brad Keselowski",
+      "carNumber": "6",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Su\u00e1rez",
+      "displayName": "Daniel Su\u00e1rez",
+      "carNumber": "7",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Chase",
+      "lastName": "Elliott",
+      "displayName": "Chase Elliott",
+      "carNumber": "9",
+      "teamName": "Hendrick Motorsports",
+      "manufacturer": "Chevrolet",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Ty",
+      "lastName": "Dillon",
+      "displayName": "Ty Dillon",
+      "carNumber": "10",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Denny",
+      "lastName": "Hamlin",
+      "displayName": "Denny Hamlin",
+      "carNumber": "11",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Blaney",
+      "displayName": "Ryan Blaney",
+      "carNumber": "12",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "AJ",
+      "lastName": "Allmendinger",
+      "displayName": "AJ Allmendinger",
+      "carNumber": "16",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Chris",
+      "lastName": "Buescher",
+      "displayName": "Chris Buescher",
+      "carNumber": "17",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Chase",
+      "lastName": "Briscoe",
+      "displayName": "Chase Briscoe",
+      "carNumber": "19",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Bell",
+      "displayName": "Christopher Bell",
+      "carNumber": "20",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Josh",
+      "lastName": "Berry",
+      "displayName": "Josh Berry",
+      "carNumber": "21",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Joey",
+      "lastName": "Logano",
+      "displayName": "Joey Logano",
+      "carNumber": "22",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Bubba",
+      "lastName": "Wallace",
+      "displayName": "Bubba Wallace",
+      "carNumber": "23",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "William",
+      "lastName": "Byron",
+      "displayName": "William Byron",
+      "carNumber": "24",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Todd",
+      "lastName": "Gilliland",
+      "displayName": "Todd Gilliland",
+      "carNumber": "34",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Riley",
+      "lastName": "Herbst",
+      "displayName": "Riley Herbst",
+      "carNumber": "35",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Zane",
+      "lastName": "Smith",
+      "displayName": "Zane Smith",
+      "carNumber": "38",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Cole",
+      "lastName": "Custer",
+      "displayName": "Cole Custer",
+      "carNumber": "41",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "John",
+      "lastName": "Hunter Nemechek",
+      "displayName": "John Hunter Nemechek",
+      "carNumber": "42",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Erik",
+      "lastName": "Jones",
+      "displayName": "Erik Jones",
+      "carNumber": "43",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Tyler",
+      "lastName": "Reddick",
+      "displayName": "Tyler Reddick",
+      "carNumber": "45",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Ricky",
+      "lastName": "Stenhouse Jr.",
+      "displayName": "Ricky Stenhouse Jr.",
+      "carNumber": "47",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Alex",
+      "lastName": "Bowman",
+      "displayName": "Alex Bowman",
+      "carNumber": "48",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Cody",
+      "lastName": "Ware",
+      "displayName": "Cody Ware",
+      "carNumber": "51",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Ty",
+      "lastName": "Gibbs",
+      "displayName": "Ty Gibbs",
+      "carNumber": "54",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Preece",
+      "displayName": "Ryan Preece",
+      "carNumber": "60",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "McDowell",
+      "displayName": "Michael McDowell",
+      "carNumber": "71",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Carson",
+      "lastName": "Hocevar",
+      "displayName": "Carson Hocevar",
+      "carNumber": "77",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Connor",
+      "lastName": "Zilisch",
+      "displayName": "Connor Zilisch",
+      "carNumber": "88",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    },
+    {
+      "firstName": "Shane",
+      "lastName": "van Gisbergen",
+      "displayName": "Shane van Gisbergen",
+      "carNumber": "97",
+      "teamName": "",
+      "manufacturer": "",
+      "headshotUrl": "",
+      "driverPageUrl": ""
+    }
+  ]
+}
