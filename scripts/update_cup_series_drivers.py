@@ -35,6 +35,44 @@ TEAM_MANUFACTURERS = {
     "Wood Brothers Racing": "Ford",
 }
 
+FULL_TIME_TEAMS_BY_NUMBER = {
+    "1": "Trackhouse Racing",
+    "2": "Team Penske",
+    "3": "Richard Childress Racing",
+    "4": "Front Row Motorsports",
+    "5": "Hendrick Motorsports",
+    "6": "RFK Racing",
+    "7": "Spire Motorsports",
+    "9": "Hendrick Motorsports",
+    "10": "Kaulig Racing",
+    "11": "Joe Gibbs Racing",
+    "12": "Team Penske",
+    "16": "Kaulig Racing",
+    "17": "RFK Racing",
+    "19": "Joe Gibbs Racing",
+    "20": "Joe Gibbs Racing",
+    "21": "Wood Brothers Racing",
+    "22": "Team Penske",
+    "23": "23XI Racing",
+    "24": "Hendrick Motorsports",
+    "34": "Front Row Motorsports",
+    "35": "23XI Racing",
+    "38": "Front Row Motorsports",
+    "41": "Haas Factory Team",
+    "42": "Legacy Motor Club",
+    "43": "Legacy Motor Club",
+    "45": "23XI Racing",
+    "47": "HYAK Motorsports",
+    "48": "Hendrick Motorsports",
+    "51": "Rick Ware Racing",
+    "54": "Joe Gibbs Racing",
+    "60": "RFK Racing",
+    "71": "Spire Motorsports",
+    "77": "Spire Motorsports",
+    "88": "Trackhouse Racing",
+    "97": "Trackhouse Racing",
+}
+
 
 def clean_text(value: str) -> str:
     return " ".join(value.split()).strip()
@@ -167,7 +205,7 @@ def parse_drivers(soup: BeautifulSoup, teams_by_number: dict[str, str]) -> list[
         car_number = clean_text(match.group("number"))
         first_name, last_name = split_driver_name(full_name)
         card = find_driver_card(image)
-        team_name = teams_by_number.get(car_number, "")
+        team_name = teams_by_number.get(car_number, FULL_TIME_TEAMS_BY_NUMBER.get(car_number, ""))
 
         driver = {
             "firstName": first_name,
