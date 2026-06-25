@@ -18,6 +18,7 @@ SCHEDULE_PATH = Path("cup-series-schedule.json")
 OUTPUT_PATH = Path("cup-series-drivers.json")
 
 DRIVER_AVERAGES_TRACK_URL = "https://www.driveraverages.com/nascar/track_avg.php?trk_id={track_id}"
+DRIVER_AVERAGES_BASE_URL = "https://www.driveraverages.com/nascar/"
 DRIVER_AVERAGES_ALLSTAR_URL = "https://www.driveraverages.com/nascar/allstar.php"
 
 DRIVER_AVERAGES_TRACK_IDS = {
@@ -227,6 +228,10 @@ def load_driver_averages_race_page(race_url: str) -> BeautifulSoup:
     return BeautifulSoup(response.text, "html.parser")
 
 
+def load_driver_averages_driver_track_page(driver_track_url: str) -> BeautifulSoup:
+    return load_driver_averages_race_page(driver_track_url)
+
+
 def load_driver_averages_allstar_page() -> BeautifulSoup:
     response = requests.get(
         DRIVER_AVERAGES_ALLSTAR_URL,
@@ -357,6 +362,26 @@ def parse_driver_averages_track_stats(soup: BeautifulSoup) -> dict[str, dict[str
     return stats_by_driver
 
 
+def parse_driver_averages_driver_track_urls(soup: BeautifulSoup) -> dict[str, str]:
+    urls_by_driver: dict[str, str] = {}
+
+    for anchor in soup.find_all("a"):
+        href = anchor.get("href", "")
+        if "drivertrack.php" not in href:
+            continue
+
+        driver_name = clean_text(anchor.get_text(" "))
+        if not driver_name:
+            continue
+
+        urls_by_driver.setdefault(
+            normalize_name(driver_name),
+            urljoin(DRIVER_AVERAGES_BASE_URL, href),
+        )
+
+    return urls_by_driver
+
+
 def parse_driver_averages_allstar_stats(soup: BeautifulSoup) -> dict[str, dict[str, int]]:
     stats_by_driver: dict[str, dict[str, int]] = {}
     recent_heading = soup.find(string=re.compile(r"All-Star Race Recent Performance", re.IGNORECASE))
@@ -431,6 +456,50 @@ def extract_race_year(soup: BeautifulSoup) -> int:
     return parse_int(match.group(1)) if match else 0
 
 
+def parse_driver_track_stage_finishes(
+    soup: BeautifulSoup,
+    race_year: int,
+    finish_position: int,
+    qualifying_position: int,
+) -> dict[str, int]:
+    fallback_stage_finishes: dict[str, int] = {}
+
+    for row in soup.find_all("tr"):
+        headers = [clean_text(cell.get_text(" ")) for cell in row.find_all(["th", "td"])]
+        if "Race" not in headers or "Finish" not in headers or "Start" not in headers or "S1" not in headers or "S2" not in headers:
+            continue
+
+        current = row
+        while current is not None:
+            current = current.find_next_sibling("tr")
+            if current is None:
+                break
+
+            cells = [clean_text(cell.get_text(" ")) for cell in current.find_all(["th", "td"])]
+            if len(cells) < len(headers):
+                continue
+
+            race_text = cells[headers.index("Race")]
+            if str(race_year) not in race_text:
+                continue
+
+            stage_finishes = {
+                "stage1FinishPosition": parse_int(cells[headers.index("S1")]),
+                "stage2FinishPosition": parse_int(cells[headers.index("S2")]),
+            }
+
+            if not fallback_stage_finishes:
+                fallback_stage_finishes = stage_finishes
+
+            if (
+                parse_int(cells[headers.index("Finish")]) == finish_position and
+                parse_int(cells[headers.index("Start")]) == qualifying_position
+            ):
+                return stage_finishes
+
+    return fallback_stage_finishes
+
+
 def parse_driver_averages_previous_race(soup: BeautifulSoup) -> tuple[int, dict[str, dict[str, int]]]:
     year = extract_race_year(soup)
     results_by_driver: dict[str, dict[str, int]] = {}
@@ -488,6 +557,36 @@ def load_previous_race_results(
     return results_by_driver
 
 
+def attach_stage_finishes(
+    track_name: str,
+    track_soup: BeautifulSoup,
+    results_by_driver: dict[str, dict[str, int]],
+) -> None:
+    driver_track_urls = parse_driver_averages_driver_track_urls(track_soup)
+
+    for driver_key, result in results_by_driver.items():
+        driver_track_url = driver_track_urls.get(driver_key)
+        race_year = result.get("year", 0)
+
+        if not driver_track_url or not race_year:
+            continue
+
+        try:
+            driver_track_soup = load_driver_averages_driver_track_page(driver_track_url)
+            stage_finishes = parse_driver_track_stage_finishes(
+                driver_track_soup,
+                race_year,
+                result.get("finishPosition", 0),
+                result.get("qualifyingPosition", 0),
+            )
+        except requests.RequestException as error:
+            print(f"Skipping stage finishes for {track_name} driver {driver_key}: {error}")
+            continue
+
+        if stage_finishes:
+            result.update(stage_finishes)
+
+
 def load_schedule_track_names(schedule_path: Path) -> list[str]:
     if not schedule_path.exists():
         return []
@@ -538,6 +637,7 @@ def load_track_data(
 
         results = load_previous_race_results(track_name, soup, datetime.now(timezone.utc).year)
         if results:
+            attach_stage_finishes(track_name, soup, results)
             previous_race_results[track_name] = results
 
     return track_stats, previous_race_results
@@ -588,6 +688,8 @@ def attach_previous_race_results(
                     "trackName": track_name,
                     "year": result.get("year", 0),
                     "qualifyingPosition": result.get("qualifyingPosition", 0),
+                    "stage1FinishPosition": result.get("stage1FinishPosition", 0),
+                    "stage2FinishPosition": result.get("stage2FinishPosition", 0),
                     "finishPosition": result.get("finishPosition", 0),
                     "lapsLed": result.get("lapsLed", 0),
                     "fastestLaps": result.get("fastestLaps", 0),
