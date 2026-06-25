@@ -4,7 +4,7 @@
   "sourceUrl": "https://www.nascar.com/drivers/nascar-cup-series/",
   "entryListUrl": "https://www.nascar.com/news-media/2026/06/22/2026-nascar-cup-series-entry-list-for-sonoma-raceway/",
   "driverAveragesTrackUrl": "https://www.driveraverages.com/nascar/track_avg.php?trk_id={track_id}",
-  "generatedAtUtc": "2026-06-25T12:31:29+00:00",
+  "generatedAtUtc": "2026-06-25T13:46:42+00:00",
   "drivers": [
     {
       "firstName": "Ross",
@@ -208,6 +208,200 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 3,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 35,
+          "lapsLed": 3,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 31,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 35,
+          "lapsLed": 4,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 37,
+          "finishPosition": 20,
+          "lapsLed": 12,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 25,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 33,
+          "finishPosition": 39,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 28,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 17
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 16,
+          "lapsLed": 14,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 16,
+          "lapsLed": 1,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 8,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 24,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 33,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 4,
+          "finishPosition": 24,
+          "lapsLed": 4,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 24,
+          "finishPosition": 7,
+          "lapsLed": 22,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 27,
+          "lapsLed": 4,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 4,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        }
       ]
     },
     {
@@ -403,6 +597,192 @@
           "top10": 1,
           "top5": 1,
           "wins": 1
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 26,
+          "lapsLed": 21,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 38,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 5,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 36,
+          "finishPosition": 34,
+          "lapsLed": 5,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 8,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 10,
+          "finishPosition": 15,
+          "lapsLed": 40,
+          "fastestLaps": 18
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 4,
+          "finishPosition": 12,
+          "lapsLed": 20,
+          "fastestLaps": 13
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 34,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 25
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 36,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 22,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 14,
+          "lapsLed": 1,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 13,
+          "finishPosition": 5,
+          "lapsLed": 2,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 24,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 9,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 0
         }
       ]
     },
@@ -608,6 +988,200 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 24,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 1,
+          "finishPosition": 10,
+          "lapsLed": 9,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 30,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 20,
+          "finishPosition": 38,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 18,
+          "finishPosition": 10,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 28,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 11,
+          "finishPosition": 1,
+          "lapsLed": 107,
+          "fastestLaps": 24
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 33,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 19,
+          "lapsLed": 5,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 38,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 15,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        }
       ]
     },
     {
@@ -803,6 +1377,192 @@
           "top10": 0,
           "top5": 0,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 3,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 18,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 31,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 34,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 33,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 35,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 22,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 32,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 29,
+          "finishPosition": 9,
+          "lapsLed": 2,
+          "fastestLaps": 12
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 24,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 0
         }
       ]
     },
@@ -1008,6 +1768,200 @@
           "top5": 1,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 32,
+          "lapsLed": 48,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 3,
+          "lapsLed": 284,
+          "fastestLaps": 75
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 5,
+          "lapsLed": 14,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 14,
+          "finishPosition": 2,
+          "lapsLed": 7,
+          "fastestLaps": 15
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 32,
+          "lapsLed": 20,
+          "fastestLaps": 11
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 16,
+          "lapsLed": 7,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 14,
+          "finishPosition": 1,
+          "lapsLed": 19,
+          "fastestLaps": 27
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 13,
+          "finishPosition": 2,
+          "lapsLed": 19,
+          "fastestLaps": 14
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 3,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 2,
+          "lapsLed": 78,
+          "fastestLaps": 23
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 7,
+          "lapsLed": 62,
+          "fastestLaps": 12
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 11
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 4,
+          "lapsLed": 4,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 23,
+          "lapsLed": 56,
+          "fastestLaps": 27
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 16,
+          "finishPosition": 7,
+          "lapsLed": 4,
+          "fastestLaps": 11
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 3,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 5,
+          "lapsLed": 24,
+          "fastestLaps": 11
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 30,
+          "finishPosition": 6,
+          "lapsLed": 9,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 11,
+          "finishPosition": 35,
+          "lapsLed": 3,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 40,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 2,
+          "finishPosition": 12,
+          "lapsLed": 52,
+          "fastestLaps": 50
+        }
       ]
     },
     {
@@ -1211,6 +2165,200 @@
           "top10": 1,
           "top5": 1,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 17,
+          "lapsLed": 10,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 13
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 15
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 12,
+          "finishPosition": 5,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 2,
+          "lapsLed": 142,
+          "fastestLaps": 40
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 5,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 32,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 14,
+          "finishPosition": 5,
+          "lapsLed": 0,
+          "fastestLaps": 12
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 5,
+          "finishPosition": 3,
+          "lapsLed": 68,
+          "fastestLaps": 59
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 10,
+          "lapsLed": 4,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 17,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 37,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 37,
+          "finishPosition": 38,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 6,
+          "finishPosition": 9,
+          "lapsLed": 2,
+          "fastestLaps": 24
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 21,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 13,
+          "lapsLed": 4,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 23,
+          "finishPosition": 17,
+          "lapsLed": 13,
+          "fastestLaps": 1
         }
       ]
     },
@@ -1416,6 +2564,200 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 5,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 1,
+          "lapsLed": 17,
+          "fastestLaps": 24
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 28,
+          "finishPosition": 24,
+          "lapsLed": 1,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 33,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 31,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 26,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 19,
+          "lapsLed": 1,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 6,
+          "lapsLed": 10,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 19,
+          "lapsLed": 10,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 32,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 21,
+          "finishPosition": 7,
+          "lapsLed": 1,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 19,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 26,
+          "finishPosition": 35,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        }
       ]
     },
     {
@@ -1619,6 +2961,200 @@
           "top10": 1,
           "top5": 1,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 11,
+          "lapsLed": 11,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 22,
+          "lapsLed": 6,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 13,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 15,
+          "lapsLed": 6,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 4,
+          "lapsLed": 2,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 18,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 30,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 8,
+          "finishPosition": 14,
+          "lapsLed": 11,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 2,
+          "lapsLed": 0,
+          "fastestLaps": 15
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 1,
+          "lapsLed": 84,
+          "fastestLaps": 26
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 32,
+          "lapsLed": 67,
+          "fastestLaps": 16
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 29,
+          "finishPosition": 7,
+          "lapsLed": 3,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 27,
+          "finishPosition": 5,
+          "lapsLed": 3,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 11,
+          "lapsLed": 9,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 5,
+          "finishPosition": 38,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 13,
+          "finishPosition": 3,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 4,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 1,
+          "lapsLed": 87,
+          "fastestLaps": 36
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 19,
+          "finishPosition": 3,
+          "lapsLed": 4,
+          "fastestLaps": 5
         }
       ]
     },
@@ -1824,6 +3360,200 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 20,
+          "finishPosition": 35,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 36,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 34,
+          "finishPosition": 14,
+          "lapsLed": 3,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 34,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 26,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 32,
+          "finishPosition": 35,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 37,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 36,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 36,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 24,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 30,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 16,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 26,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 35,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        }
       ]
     },
     {
@@ -2027,6 +3757,200 @@
           "top10": 3,
           "top5": 3,
           "wins": 1
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 29,
+          "finishPosition": 13,
+          "lapsLed": 10,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 19
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 3,
+          "lapsLed": 75,
+          "fastestLaps": 36
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 9,
+          "finishPosition": 15,
+          "lapsLed": 5,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 10,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 31,
+          "lapsLed": 3,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 23,
+          "finishPosition": 5,
+          "lapsLed": 15,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 39,
+          "finishPosition": 3,
+          "lapsLed": 1,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 11,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 4,
+          "lapsLed": 131,
+          "fastestLaps": 35
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 1,
+          "lapsLed": 134,
+          "fastestLaps": 47
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 2,
+          "lapsLed": 292,
+          "fastestLaps": 82
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 1,
+          "lapsLed": 40,
+          "fastestLaps": 33
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 1,
+          "lapsLed": 57,
+          "fastestLaps": 19
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 9,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 5,
+          "lapsLed": 5,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 1,
+          "lapsLed": 28,
+          "fastestLaps": 26
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 4,
+          "finishPosition": 10,
+          "lapsLed": 0,
+          "fastestLaps": 15
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 16,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 15,
+          "lapsLed": 28,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 2,
+          "lapsLed": 21,
+          "fastestLaps": 29
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 1,
+          "finishPosition": 1,
+          "lapsLed": 75,
+          "fastestLaps": 36
         }
       ]
     },
@@ -2232,6 +4156,200 @@
           "top5": 2,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 10,
+          "lapsLed": 6,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 2,
+          "lapsLed": 190,
+          "fastestLaps": 118
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 10,
+          "finishPosition": 6,
+          "lapsLed": 1,
+          "fastestLaps": 28
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 8,
+          "lapsLed": 11,
+          "fastestLaps": 16
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 3,
+          "lapsLed": 0,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 27,
+          "lapsLed": 2,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 6,
+          "finishPosition": 36,
+          "lapsLed": 124,
+          "fastestLaps": 54
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 24,
+          "finishPosition": 7,
+          "lapsLed": 14,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 6,
+          "finishPosition": 4,
+          "lapsLed": 29,
+          "fastestLaps": 33
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 16,
+          "lapsLed": 5,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 6,
+          "lapsLed": 2,
+          "fastestLaps": 24
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 8,
+          "lapsLed": 46,
+          "fastestLaps": 21
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 2,
+          "finishPosition": 1,
+          "lapsLed": 116,
+          "fastestLaps": 85
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 1,
+          "lapsLed": 28,
+          "fastestLaps": 38
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 10,
+          "lapsLed": 3,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 20,
+          "finishPosition": 3,
+          "lapsLed": 39,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 7,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 10,
+          "lapsLed": 5,
+          "fastestLaps": 11
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 5,
+          "finishPosition": 4,
+          "lapsLed": 5,
+          "fastestLaps": 8
+        }
       ]
     },
     {
@@ -2435,6 +4553,192 @@
           "top10": 1,
           "top5": 0,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 9,
+          "lapsLed": 1,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 29
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 19,
+          "lapsLed": 1,
+          "fastestLaps": 12
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 10,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 9,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 9,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 23
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 29,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 35,
+          "lapsLed": 7,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 12,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 3,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 5,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 17,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 0
         }
       ]
     },
@@ -2640,6 +4944,200 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 27,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 9,
+          "lapsLed": 41,
+          "fastestLaps": 12
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 41,
+          "finishPosition": 7,
+          "lapsLed": 4,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 11,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 7,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 27,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 10,
+          "lapsLed": 1,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 27
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 15,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 12,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 14,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 2,
+          "lapsLed": 22,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 5,
+          "lapsLed": 0,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 11,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        }
       ]
     },
     {
@@ -2835,6 +5333,192 @@
           "top10": 1,
           "top5": 1,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 34,
+          "finishPosition": 2,
+          "lapsLed": 27,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 5,
+          "lapsLed": 0,
+          "fastestLaps": 22
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 34,
+          "lapsLed": 34,
+          "fastestLaps": 25
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 37,
+          "lapsLed": 8,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 12,
+          "lapsLed": 4,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 36,
+          "lapsLed": 23,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 4,
+          "finishPosition": 4,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 1,
+          "finishPosition": 18,
+          "lapsLed": 34,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 1,
+          "finishPosition": 2,
+          "lapsLed": 81,
+          "fastestLaps": 20
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 3,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 14
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 10,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 3,
+          "lapsLed": 14,
+          "fastestLaps": 23
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 18,
+          "finishPosition": 10,
+          "lapsLed": 19,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 12,
+          "lapsLed": 4,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 19,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 2,
+          "finishPosition": 2,
+          "lapsLed": 2,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 29,
+          "lapsLed": 3,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 23,
+          "lapsLed": 4,
+          "fastestLaps": 15
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 4,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 3,
+          "finishPosition": 2,
+          "lapsLed": 15,
+          "fastestLaps": 11
         }
       ]
     },
@@ -3032,6 +5716,192 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 21,
+          "lapsLed": 9,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 19
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 2,
+          "lapsLed": 44,
+          "fastestLaps": 44
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 3,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 35,
+          "lapsLed": 9,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 16,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 29
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 16,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 17,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 20,
+          "lapsLed": 47,
+          "fastestLaps": 14
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 4,
+          "lapsLed": 31,
+          "fastestLaps": 27
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 2,
+          "lapsLed": 29,
+          "fastestLaps": 61
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 19,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 2,
+          "lapsLed": 176,
+          "fastestLaps": 119
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 26,
+          "lapsLed": 18,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 8,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 14
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 10,
+          "finishPosition": 5,
+          "lapsLed": 1,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 17,
+          "lapsLed": 31,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 38,
+          "lapsLed": 22,
+          "fastestLaps": 11
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 8,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 27
+        }
       ]
     },
     {
@@ -3227,6 +6097,192 @@
           "top10": 0,
           "top5": 0,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 38,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 34,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 2,
+          "finishPosition": 17,
+          "lapsLed": 2,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 17,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 12,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 10,
+          "lapsLed": 2,
+          "fastestLaps": 19
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 37,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 3,
+          "finishPosition": 2,
+          "lapsLed": 10,
+          "fastestLaps": 51
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 32,
+          "lapsLed": 13,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 17,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 25,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 24,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 34,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 12,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 0
         }
       ]
     },
@@ -3432,6 +6488,200 @@
           "top5": 4,
           "wins": 1
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 18,
+          "lapsLed": 26,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 19,
+          "finishPosition": 3,
+          "lapsLed": 0,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 29,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 3,
+          "lapsLed": 9,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 12,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 15,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 14,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 15,
+          "lapsLed": 3,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 3,
+          "lapsLed": 0,
+          "fastestLaps": 20
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 14,
+          "lapsLed": 1,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 1,
+          "finishPosition": 4,
+          "lapsLed": 147,
+          "fastestLaps": 41
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 31,
+          "lapsLed": 73,
+          "fastestLaps": 13
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 38,
+          "finishPosition": 4,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 22,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 39,
+          "lapsLed": 3,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 38,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 13,
+          "finishPosition": 5,
+          "lapsLed": 2,
+          "fastestLaps": 9
+        }
       ]
     },
     {
@@ -3635,6 +6885,200 @@
           "top10": 1,
           "top5": 0,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 8,
+          "lapsLed": 46,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 24,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 26,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 24,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 10,
+          "lapsLed": 40,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 9,
+          "finishPosition": 3,
+          "lapsLed": 56,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 2,
+          "finishPosition": 1,
+          "lapsLed": 30,
+          "fastestLaps": 12
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 15,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 18
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 5,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 3,
+          "lapsLed": 9,
+          "fastestLaps": 12
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 14,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 38,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 7,
+          "finishPosition": 28,
+          "lapsLed": 123,
+          "fastestLaps": 25
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 30,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 36,
+          "lapsLed": 3,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 37,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 14,
+          "finishPosition": 8,
+          "lapsLed": 73,
+          "fastestLaps": 15
         }
       ]
     },
@@ -3840,6 +7284,200 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 34,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 11,
+          "finishPosition": 8,
+          "lapsLed": 9,
+          "fastestLaps": 14
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 13,
+          "lapsLed": 1,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 39,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 5,
+          "finishPosition": 12,
+          "lapsLed": 1,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 6,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 11
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 2,
+          "finishPosition": 1,
+          "lapsLed": 141,
+          "fastestLaps": 32
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 3,
+          "lapsLed": 26,
+          "fastestLaps": 17
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 5,
+          "lapsLed": 6,
+          "fastestLaps": 13
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 18,
+          "lapsLed": 7,
+          "fastestLaps": 12
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 5,
+          "finishPosition": 3,
+          "lapsLed": 0,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 7,
+          "lapsLed": 1,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 3,
+          "lapsLed": 0,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 14,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 12
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 3,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 35,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 6,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        }
       ]
     },
     {
@@ -4035,6 +7673,192 @@
           "top10": 0,
           "top5": 0,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 11
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 39,
+          "lapsLed": 1,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 29,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 19,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 34,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 29,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 36,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 29,
+          "finishPosition": 19,
+          "lapsLed": 6,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 31,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 35,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 30,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 0
         }
       ]
     },
@@ -4232,6 +8056,192 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 35,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 19,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 13
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 25,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 24,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 35,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 17,
+          "lapsLed": 1,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 25,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 26,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 28,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 11,
+          "lapsLed": 1,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 33,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        }
       ]
     },
     {
@@ -4427,6 +8437,192 @@
           "top10": 0,
           "top5": 0,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 7,
+          "lapsLed": 1,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 10,
+          "lapsLed": 31,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 6,
+          "lapsLed": 9,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 17,
+          "finishPosition": 11,
+          "lapsLed": 3,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 27,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 23,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 12
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 9,
+          "lapsLed": 18,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 20,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 24,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 29,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 12,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 5,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 34,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 10,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 0
         }
       ]
     },
@@ -4624,6 +8820,192 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 24,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 29,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 19,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 29,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 18
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 27,
+          "lapsLed": 1,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 24,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 31,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 36,
+          "finishPosition": 35,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 24,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 27,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 38,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 35,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 29,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        }
       ]
     },
     {
@@ -4819,6 +9201,192 @@
           "top10": 1,
           "top5": 0,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 24,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 35,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 26,
+          "lapsLed": 19,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 7,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 36,
+          "finishPosition": 12,
+          "lapsLed": 1,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 29,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 29,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 4,
+          "lapsLed": 42,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 34,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 18,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 10,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 20,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 0
         }
       ]
     },
@@ -5024,6 +9592,200 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 21,
+          "finishPosition": 7,
+          "lapsLed": 1,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 36,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 24,
+          "finishPosition": 10,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 24,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 28,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 3,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 25,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 2,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 11,
+          "lapsLed": 3,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 26,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 10,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 6,
+          "lapsLed": 1,
+          "fastestLaps": 11
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 18,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 31,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 12,
+          "lapsLed": 13,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 24,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 16,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        }
       ]
     },
     {
@@ -5219,6 +9981,192 @@
           "top10": 1,
           "top5": 1,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 1,
+          "lapsLed": 53,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 4,
+          "lapsLed": 0,
+          "fastestLaps": 16
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 4,
+          "lapsLed": 119,
+          "fastestLaps": 37
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 1,
+          "lapsLed": 58,
+          "fastestLaps": 16
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 1,
+          "lapsLed": 77,
+          "fastestLaps": 80
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 1,
+          "lapsLed": 1,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 20,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 4,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 22,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 1,
+          "lapsLed": 10,
+          "fastestLaps": 22
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 11
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 35,
+          "lapsLed": 33,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 6,
+          "lapsLed": 42,
+          "fastestLaps": 23
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 4,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 2,
+          "lapsLed": 24,
+          "fastestLaps": 19
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 2,
+          "finishPosition": 34,
+          "lapsLed": 41,
+          "fastestLaps": 11
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 8,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 14,
+          "lapsLed": 2,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 4,
+          "lapsLed": 0,
+          "fastestLaps": 19
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 5,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 7,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 1
         }
       ]
     },
@@ -5424,6 +10372,200 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 25,
+          "finishPosition": 12,
+          "lapsLed": 2,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 34,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 2,
+          "lapsLed": 4,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 27,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 32,
+          "finishPosition": 35,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 30,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 4,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 34,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 36,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 11
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 34,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 6,
+          "lapsLed": 2,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 22,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 29,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 34,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        }
       ]
     },
     {
@@ -5628,6 +10770,168 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 36,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 29,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 8,
+          "finishPosition": 1,
+          "lapsLed": 88,
+          "fastestLaps": 39
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 21,
+          "finishPosition": 40,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 1,
+          "finishPosition": 2,
+          "lapsLed": 43,
+          "fastestLaps": 16
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 21,
+          "finishPosition": 9,
+          "lapsLed": 2,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 16,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 29,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 7,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 9,
+          "finishPosition": 2,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 9,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 3,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 3,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 25,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        }
       ]
     },
     {
@@ -5824,6 +11128,192 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 36,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 38,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 37,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 34,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 17,
+          "lapsLed": 2,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 36,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 34,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 35,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 35,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 34,
+          "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 35,
+          "finishPosition": 31,
+          "lapsLed": 2,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 34,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 37,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 21
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 36,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 36,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 29,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 36,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 36,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        }
       ]
     },
     {
@@ -6019,6 +11509,192 @@
           "top10": 1,
           "top5": 0,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 1,
+          "lapsLed": 25,
+          "fastestLaps": 35
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 6,
+          "lapsLed": 17,
+          "fastestLaps": 30
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 4,
+          "lapsLed": 5,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 6,
+          "lapsLed": 1,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 13,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 5,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 20,
+          "finishPosition": 21,
+          "lapsLed": 0,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 5,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 4,
+          "lapsLed": 0,
+          "fastestLaps": 22
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 25,
+          "lapsLed": 6,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 13,
+          "lapsLed": 1,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 13,
+          "finishPosition": 35,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 4,
+          "lapsLed": 12,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 23,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 13
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 6,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 9,
+          "finishPosition": 34,
+          "lapsLed": 17,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 36,
+          "lapsLed": 1,
+          "fastestLaps": 16
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 3,
+          "lapsLed": 17,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 21,
+          "finishPosition": 10,
+          "lapsLed": 1,
+          "fastestLaps": 3
         }
       ]
     },
@@ -6224,6 +11900,200 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 10
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 15
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 33,
+          "lapsLed": 1,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 22,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 29,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 31,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 23,
+          "finishPosition": 4,
+          "lapsLed": 12,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 33,
+          "finishPosition": 5,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 8,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 27,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 23,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 13,
+          "lapsLed": 4,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 35,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 1,
+          "finishPosition": 35,
+          "lapsLed": 60,
+          "fastestLaps": 33
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 20,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 18,
+          "lapsLed": 21,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 32,
+          "finishPosition": 13,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        }
       ]
     },
     {
@@ -6428,6 +12298,200 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 4,
+          "finishPosition": 14,
+          "lapsLed": 3,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "year": 2019,
+          "qualifyingPosition": 7,
+          "finishPosition": 20,
+          "lapsLed": 1,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 5,
+          "lapsLed": 5,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 22,
+          "lapsLed": 10,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 26,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 22,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 13,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 20,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 14,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 11,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 9,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 10,
+          "finishPosition": 17,
+          "lapsLed": 6,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 15,
+          "finishPosition": 4,
+          "lapsLed": 3,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 32,
+          "lapsLed": 1,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 27,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 2,
+          "lapsLed": 5,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 28,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        }
       ]
     },
     {
@@ -6624,6 +12688,192 @@
           "top5": 0,
           "wins": 0
         }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 15,
+          "finishPosition": 4,
+          "lapsLed": 2,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 10,
+          "lapsLed": 0,
+          "fastestLaps": 20
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 23,
+          "finishPosition": 23,
+          "lapsLed": 4,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 4,
+          "lapsLed": 2,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 18,
+          "lapsLed": 1,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 15,
+          "finishPosition": 37,
+          "lapsLed": 4,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 8,
+          "finishPosition": 10,
+          "lapsLed": 0,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 7,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 6,
+          "finishPosition": 13,
+          "lapsLed": 6,
+          "fastestLaps": 20
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 22,
+          "lapsLed": 1,
+          "fastestLaps": 16
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 2,
+          "finishPosition": 5,
+          "lapsLed": 21,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 10,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 6,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 7,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 15,
+          "finishPosition": 15,
+          "lapsLed": 10,
+          "fastestLaps": 17
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 23,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 1,
+          "lapsLed": 19,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 7,
+          "lapsLed": 40,
+          "fastestLaps": 23
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 11,
+          "finishPosition": 28,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 27,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        }
       ]
     },
     {
@@ -6763,6 +13013,136 @@
           "top10": 0,
           "top5": 0,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 8
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 26,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 39,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 18,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 33,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 36,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 25,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 34,
+          "finishPosition": 37,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 38,
+          "finishPosition": 38,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 19,
+          "finishPosition": 29,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 23,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 32,
+          "finishPosition": 26,
+          "lapsLed": 0,
+          "fastestLaps": 3
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 12,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 13
         }
       ]
     },
@@ -6959,6 +13339,192 @@
           "top10": 0,
           "top5": 0,
           "wins": 0
+        }
+      ],
+      "previousRaceResults": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 28,
+          "finishPosition": 6,
+          "lapsLed": 1,
+          "fastestLaps": 5
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 34,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 3,
+          "finishPosition": 11,
+          "lapsLed": 11,
+          "fastestLaps": 7
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 2,
+          "lapsLed": 2,
+          "fastestLaps": 6
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 13,
+          "finishPosition": 30,
+          "lapsLed": 3,
+          "fastestLaps": 4
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "year": 2025,
+          "qualifyingPosition": 35,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 11,
+          "finishPosition": 19,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "year": 2025,
+          "qualifyingPosition": 21,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "year": 2026,
+          "qualifyingPosition": 17,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 16,
+          "finishPosition": 36,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "year": 2026,
+          "qualifyingPosition": 5,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 12
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 30,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 10,
+          "finishPosition": 5,
+          "lapsLed": 12,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "year": 2025,
+          "qualifyingPosition": 10,
+          "finishPosition": 32,
+          "lapsLed": 0,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "year": 2026,
+          "qualifyingPosition": 18,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "year": 2026,
+          "qualifyingPosition": 31,
+          "finishPosition": 31,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "year": 2025,
+          "qualifyingPosition": 27,
+          "finishPosition": 14,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "year": 2025,
+          "qualifyingPosition": 1,
+          "finishPosition": 1,
+          "lapsLed": 97,
+          "fastestLaps": 39
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "year": 2026,
+          "qualifyingPosition": 33,
+          "finishPosition": 20,
+          "lapsLed": 0,
+          "fastestLaps": 9
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "year": 2026,
+          "qualifyingPosition": 30,
+          "finishPosition": 17,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "year": 2026,
+          "qualifyingPosition": 1,
+          "finishPosition": 1,
+          "lapsLed": 74,
+          "fastestLaps": 33
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "year": 2025,
+          "qualifyingPosition": 18,
+          "finishPosition": 25,
+          "lapsLed": 0,
+          "fastestLaps": 1
         }
       ]
     }
