@@ -393,11 +393,12 @@ def parse_driver_averages_allstar_stats(soup: BeautifulSoup) -> dict[str, dict[s
     return stats_by_driver
 
 
-def find_previous_season_driver_averages_race_url(soup: BeautifulSoup, season_year: int) -> str:
+def find_previous_season_driver_averages_race_urls(soup: BeautifulSoup, season_year: int) -> list[str]:
     recent_heading = soup.find(string=re.compile(r"Recent Races at", re.IGNORECASE))
     if recent_heading is None or recent_heading.parent is None:
-        return ""
+        return []
 
+    race_urls: list[str] = []
     current = recent_heading.parent
     while current is not None:
         current = current.find_next()
@@ -415,9 +416,9 @@ def find_previous_season_driver_averages_race_url(soup: BeautifulSoup, season_ye
         race_year = parse_int(race_year_match.group(1)) if race_year_match else 0
 
         if "race.php?sked_id=" in href and race_year and race_year < season_year:
-            return urljoin("https://www.driveraverages.com/nascar/", href)
+            race_urls.append(urljoin("https://www.driveraverages.com/nascar/", href))
 
-    return ""
+    return race_urls
 
 
 def extract_race_year(soup: BeautifulSoup) -> int:
@@ -457,6 +458,34 @@ def parse_driver_averages_previous_race(soup: BeautifulSoup) -> tuple[int, dict[
             results_by_driver[normalize_name(driver_name)]["fastestLaps"] = parse_int(cells[11])
 
     return year, results_by_driver
+
+
+def load_previous_race_results(
+    track_name: str,
+    track_soup: BeautifulSoup,
+    season_year: int,
+) -> dict[str, dict[str, int]]:
+    race_urls = find_previous_season_driver_averages_race_urls(track_soup, season_year)
+    if not race_urls:
+        print(f"Skipping previous race results for {track_name}: no prior-season race link found")
+        return {}
+
+    results_by_driver: dict[str, dict[str, int]] = {}
+    for race_url in race_urls:
+        try:
+            race_soup = load_driver_averages_race_page(race_url)
+            _year, race_results = parse_driver_averages_previous_race(race_soup)
+        except requests.RequestException as error:
+            print(f"Skipping previous race result page for {track_name}: {error}")
+            continue
+
+        for driver_key, result in race_results.items():
+            results_by_driver.setdefault(driver_key, result)
+
+    if not results_by_driver:
+        print(f"Skipping previous race results for {track_name}: no results found")
+
+    return results_by_driver
 
 
 def load_schedule_track_names(schedule_path: Path) -> list[str]:
@@ -507,23 +536,9 @@ def load_track_data(
             else:
                 print(f"Skipping DriverAverages stats for {track_name}: no stats found")
 
-        race_url = find_previous_season_driver_averages_race_url(soup, datetime.now(timezone.utc).year)
-        if not race_url:
-            print(f"Skipping previous race results for {track_name}: no prior-season race link found")
-            continue
-
-        try:
-            race_soup = load_driver_averages_race_page(race_url)
-            _year, results = parse_driver_averages_previous_race(race_soup)
-        except requests.RequestException as error:
-            print(f"Skipping previous race results for {track_name}: {error}")
-            continue
-
-        if not results:
-            print(f"Skipping previous race results for {track_name}: no results found")
-            continue
-
-        previous_race_results[track_name] = results
+        results = load_previous_race_results(track_name, soup, datetime.now(timezone.utc).year)
+        if results:
+            previous_race_results[track_name] = results
 
     return track_stats, previous_race_results
 
