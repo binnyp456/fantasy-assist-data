@@ -339,7 +339,7 @@ def parse_driver_averages_track_stats(soup: BeautifulSoup) -> dict[str, dict[str
     return stats_by_driver
 
 
-def find_latest_driver_averages_race_url(soup: BeautifulSoup) -> str:
+def find_previous_season_driver_averages_race_url(soup: BeautifulSoup, season_year: int) -> str:
     recent_heading = soup.find(string=re.compile(r"Recent Races at", re.IGNORECASE))
     if recent_heading is None or recent_heading.parent is None:
         return ""
@@ -357,7 +357,10 @@ def find_latest_driver_averages_race_url(soup: BeautifulSoup) -> str:
             continue
 
         href = current.get("href", "")
-        if "race.php?sked_id=" in href:
+        race_year_match = re.search(r"\b(20\d{2})\b", clean_text(current.get_text(" ")))
+        race_year = parse_int(race_year_match.group(1)) if race_year_match else 0
+
+        if "race.php?sked_id=" in href and race_year and race_year < season_year:
             return urljoin("https://www.driveraverages.com/nascar/", href)
 
     return ""
@@ -440,9 +443,9 @@ def load_track_data(
         else:
             print(f"Skipping DriverAverages stats for {track_name}: no stats found")
 
-        race_url = find_latest_driver_averages_race_url(soup)
+        race_url = find_previous_season_driver_averages_race_url(soup, datetime.now(timezone.utc).year)
         if not race_url:
-            print(f"Skipping previous race results for {track_name}: no recent race link found")
+            print(f"Skipping previous race results for {track_name}: no prior-season race link found")
             continue
 
         try:
