@@ -4,7 +4,7 @@
   "sourceUrl": "https://www.nascar.com/drivers/nascar-cup-series/",
   "entryListUrl": "https://www.nascar.com/news-media/2026/06/22/2026-nascar-cup-series-entry-list-for-sonoma-raceway/",
   "driverAveragesTrackUrl": "https://www.driveraverages.com/nascar/track_avg.php?trk_id={track_id}",
-  "generatedAtUtc": "2026-06-25T14:43:39+00:00",
+  "generatedAtUtc": "2026-06-25T15:24:12+00:00",
   "drivers": [
     {
       "firstName": "Ross",
@@ -3627,6 +3627,14 @@
           "fastestLaps": 0
         },
         {
+          "trackName": "North Wilkesboro Speedway",
+          "year": 2025,
+          "qualifyingPosition": 10,
+          "finishPosition": 3,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
           "trackName": "Phoenix Raceway",
           "year": 2025,
           "qualifyingPosition": 34,
@@ -4757,6 +4765,14 @@
           "fastestLaps": 12
         },
         {
+          "trackName": "Chicagoland Speedway",
+          "year": 2018,
+          "qualifyingPosition": 19,
+          "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
           "trackName": "Circuit of The Americas",
           "year": 2025,
           "qualifyingPosition": 12,
@@ -4851,6 +4867,14 @@
           "finishPosition": 20,
           "lapsLed": 0,
           "fastestLaps": 0
+        },
+        {
+          "trackName": "North Wilkesboro Speedway",
+          "year": 2025,
+          "qualifyingPosition": 16,
+          "finishPosition": 7,
+          "lapsLed": 0,
+          "fastestLaps": 2
         },
         {
           "trackName": "Phoenix Raceway",
@@ -7281,6 +7305,14 @@
           "fastestLaps": 0
         },
         {
+          "trackName": "North Wilkesboro Speedway",
+          "year": 2025,
+          "qualifyingPosition": 14,
+          "finishPosition": 8,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
           "trackName": "Phoenix Raceway",
           "year": 2025,
           "qualifyingPosition": 23,
@@ -8077,6 +8109,14 @@
           "fastestLaps": 0
         },
         {
+          "trackName": "North Wilkesboro Speedway",
+          "year": 2025,
+          "qualifyingPosition": 17,
+          "finishPosition": 12,
+          "lapsLed": 0,
+          "fastestLaps": 1
+        },
+        {
           "trackName": "Phoenix Raceway",
           "year": 2025,
           "qualifyingPosition": 30,
@@ -8455,6 +8495,14 @@
           "year": 2025,
           "qualifyingPosition": 25,
           "finishPosition": 22,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
+          "trackName": "North Wilkesboro Speedway",
+          "year": 2025,
+          "qualifyingPosition": 13,
+          "finishPosition": 10,
           "lapsLed": 0,
           "fastestLaps": 2
         },
@@ -8841,6 +8889,14 @@
           "fastestLaps": 0
         },
         {
+          "trackName": "North Wilkesboro Speedway",
+          "year": 2025,
+          "qualifyingPosition": 6,
+          "finishPosition": 6,
+          "lapsLed": 0,
+          "fastestLaps": 2
+        },
+        {
           "trackName": "Phoenix Raceway",
           "year": 2025,
           "qualifyingPosition": 22,
@@ -9219,6 +9275,14 @@
           "year": 2025,
           "qualifyingPosition": 31,
           "finishPosition": 24,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
+          "trackName": "North Wilkesboro Speedway",
+          "year": 2025,
+          "qualifyingPosition": 11,
+          "finishPosition": 9,
           "lapsLed": 0,
           "fastestLaps": 0
         },
@@ -10025,6 +10089,14 @@
           "finishPosition": 28,
           "lapsLed": 0,
           "fastestLaps": 0
+        },
+        {
+          "trackName": "North Wilkesboro Speedway",
+          "year": 2025,
+          "qualifyingPosition": 12,
+          "finishPosition": 4,
+          "lapsLed": 0,
+          "fastestLaps": 5
         },
         {
           "trackName": "Phoenix Raceway",
@@ -11635,6 +11707,14 @@
           "fastestLaps": 1
         },
         {
+          "trackName": "North Wilkesboro Speedway",
+          "year": 2025,
+          "qualifyingPosition": 15,
+          "finishPosition": 16,
+          "lapsLed": 0,
+          "fastestLaps": 0
+        },
+        {
           "trackName": "Phoenix Raceway",
           "year": 2025,
           "qualifyingPosition": 33,
@@ -12023,6 +12103,14 @@
           "finishPosition": 35,
           "lapsLed": 0,
           "fastestLaps": 0
+        },
+        {
+          "trackName": "North Wilkesboro Speedway",
+          "year": 2025,
+          "qualifyingPosition": 9,
+          "finishPosition": 15,
+          "lapsLed": 0,
+          "fastestLaps": 3
         },
         {
           "trackName": "Phoenix Raceway",
@@ -12421,6 +12509,14 @@
           "finishPosition": 14,
           "lapsLed": 0,
           "fastestLaps": 0
+        },
+        {
+          "trackName": "North Wilkesboro Speedway",
+          "year": 2025,
+          "qualifyingPosition": 5,
+          "finishPosition": 11,
+          "lapsLed": 0,
+          "fastestLaps": 18
         },
         {
           "trackName": "Phoenix Raceway",
@@ -12827,6 +12923,14 @@
           "finishPosition": 8,
           "lapsLed": 0,
           "fastestLaps": 4
+        },
+        {
+          "trackName": "North Wilkesboro Speedway",
+          "year": 2025,
+          "qualifyingPosition": 4,
+          "finishPosition": 5,
+          "lapsLed": 0,
+          "fastestLaps": 3
         },
         {
           "trackName": "Phoenix Raceway",
@@ -13789,6 +13893,14 @@
           "finishPosition": 32,
           "lapsLed": 0,
           "fastestLaps": 9
+        },
+        {
+          "trackName": "North Wilkesboro Speedway",
+          "year": 2025,
+          "qualifyingPosition": 1,
+          "finishPosition": 13,
+          "lapsLed": 54,
+          "fastestLaps": 24
         },
         {
           "trackName": "Phoenix Raceway",
