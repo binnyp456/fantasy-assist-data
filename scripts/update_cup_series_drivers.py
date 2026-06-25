@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
@@ -275,7 +276,10 @@ def parse_drivers(soup: BeautifulSoup, teams_by_number: dict[str, str]) -> list[
 
 
 def normalize_name(value: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "", value.lower())
+    normalized = unicodedata.normalize("NFKD", value)
+    ascii_value = "".join(character for character in normalized if not unicodedata.combining(character))
+
+    return re.sub(r"[^a-z0-9]+", "", ascii_value.lower())
 
 
 def parse_int(value: str) -> int:
