@@ -435,11 +435,10 @@ def load_track_data(
             print(f"Skipping DriverAverages stats for {track_name}: {error}")
             continue
 
-        if not stats:
+        if stats:
+            track_stats[track_name] = stats
+        else:
             print(f"Skipping DriverAverages stats for {track_name}: no stats found")
-            continue
-
-        track_stats[track_name] = stats
 
         race_url = find_latest_driver_averages_race_url(soup)
         if not race_url:
