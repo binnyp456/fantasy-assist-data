@@ -209,6 +209,23 @@ def load_driver_averages_track_page(track_id: int) -> BeautifulSoup:
     return BeautifulSoup(response.text, "html.parser")
 
 
+def load_driver_averages_race_page(race_url: str) -> BeautifulSoup:
+    response = requests.get(
+        race_url,
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/126.0.0.0 Safari/537.36"
+            )
+        },
+        timeout=30,
+    )
+    response.raise_for_status()
+
+    return BeautifulSoup(response.text, "html.parser")
+
+
 def extract_car_number(text: str) -> str:
     match = re.search(r"Car number\s+([A-Za-z0-9-]+)", text, re.IGNORECASE)
     return clean_text(match.group(1)) if match else ""
@@ -322,6 +339,69 @@ def parse_driver_averages_track_stats(soup: BeautifulSoup) -> dict[str, dict[str
     return stats_by_driver
 
 
+def find_latest_driver_averages_race_url(soup: BeautifulSoup) -> str:
+    recent_heading = soup.find(string=re.compile(r"Recent Races at", re.IGNORECASE))
+    if recent_heading is None or recent_heading.parent is None:
+        return ""
+
+    current = recent_heading.parent
+    while current is not None:
+        current = current.find_next()
+        if current is None:
+            break
+
+        if current.name in {"h1", "h2", "h3"}:
+            break
+
+        if current.name != "a":
+            continue
+
+        href = current.get("href", "")
+        if "race.php?sked_id=" in href:
+            return urljoin("https://www.driveraverages.com/nascar/", href)
+
+    return ""
+
+
+def extract_race_year(soup: BeautifulSoup) -> int:
+    text = soup.get_text("\n")
+    match = re.search(r"Date:\s*[^\n,]+,\s+[A-Za-z]+\s+\d{1,2},\s+(\d{4})", text)
+    if match:
+        return parse_int(match.group(1))
+
+    match = re.search(r"\b(20\d{2})\b", text)
+    return parse_int(match.group(1)) if match else 0
+
+
+def parse_driver_averages_previous_race(soup: BeautifulSoup) -> tuple[int, dict[str, dict[str, int]]]:
+    year = extract_race_year(soup)
+    results_by_driver: dict[str, dict[str, int]] = {}
+
+    for row in soup.find_all("tr"):
+        cells = [clean_text(cell.get_text(" ")) for cell in row.find_all(["th", "td"])]
+        if len(cells) < 12:
+            continue
+
+        if cells[0].isdigit() and cells[1].isdigit():
+            driver_name = cells[3]
+            results_by_driver.setdefault(normalize_name(driver_name), {})
+            results_by_driver[normalize_name(driver_name)].update(
+                {
+                    "year": year,
+                    "qualifyingPosition": parse_int(cells[1]),
+                    "finishPosition": parse_int(cells[0]),
+                    "lapsLed": parse_int(cells[7]),
+                }
+            )
+
+        if cells[0].isdigit() and not cells[1].isdigit():
+            driver_name = cells[1]
+            results_by_driver.setdefault(normalize_name(driver_name), {"year": year})
+            results_by_driver[normalize_name(driver_name)]["fastestLaps"] = parse_int(cells[11])
+
+    return year, results_by_driver
+
+
 def load_schedule_track_names(schedule_path: Path) -> list[str]:
     if not schedule_path.exists():
         return []
@@ -336,8 +416,11 @@ def load_schedule_track_names(schedule_path: Path) -> list[str]:
     return sorted(track_names)
 
 
-def load_track_stats(track_names: list[str]) -> dict[str, dict[str, dict[str, int]]]:
+def load_track_data(
+    track_names: list[str],
+) -> tuple[dict[str, dict[str, dict[str, int]]], dict[str, dict[str, dict[str, int]]]]:
     track_stats: dict[str, dict[str, dict[str, int]]] = {}
+    previous_race_results: dict[str, dict[str, dict[str, int]]] = {}
 
     for track_name in track_names:
         track_id = DRIVER_AVERAGES_TRACK_IDS.get(track_name)
@@ -358,7 +441,25 @@ def load_track_stats(track_names: list[str]) -> dict[str, dict[str, dict[str, in
 
         track_stats[track_name] = stats
 
-    return track_stats
+        race_url = find_latest_driver_averages_race_url(soup)
+        if not race_url:
+            print(f"Skipping previous race results for {track_name}: no recent race link found")
+            continue
+
+        try:
+            race_soup = load_driver_averages_race_page(race_url)
+            _year, results = parse_driver_averages_previous_race(race_soup)
+        except requests.RequestException as error:
+            print(f"Skipping previous race results for {track_name}: {error}")
+            continue
+
+        if not results:
+            print(f"Skipping previous race results for {track_name}: no results found")
+            continue
+
+        previous_race_results[track_name] = results
+
+    return track_stats, previous_race_results
 
 
 def attach_track_stats(
@@ -388,6 +489,33 @@ def attach_track_stats(
         driver["trackStats"] = sorted(driver_track_stats, key=lambda stats: str(stats["trackName"]))
 
 
+def attach_previous_race_results(
+    drivers: list[dict[str, object]],
+    previous_race_results: dict[str, dict[str, dict[str, int]]],
+) -> None:
+    for driver in drivers:
+        driver_key = normalize_name(str(driver.get("displayName", "")))
+        driver_results = []
+
+        for track_name, results_by_driver in previous_race_results.items():
+            result = results_by_driver.get(driver_key)
+            if result is None:
+                continue
+
+            driver_results.append(
+                {
+                    "trackName": track_name,
+                    "year": result.get("year", 0),
+                    "qualifyingPosition": result.get("qualifyingPosition", 0),
+                    "finishPosition": result.get("finishPosition", 0),
+                    "lapsLed": result.get("lapsLed", 0),
+                    "fastestLaps": result.get("fastestLaps", 0),
+                }
+            )
+
+        driver["previousRaceResults"] = sorted(driver_results, key=lambda result: str(result["trackName"]))
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Update NASCAR Cup Series driver data.")
     parser.add_argument("--output", default=str(OUTPUT_PATH), help="Output JSON path.")
@@ -398,8 +526,9 @@ def main() -> None:
     teams_by_number = parse_entry_list_teams(entry_list_soup)
     drivers = parse_drivers(soup, teams_by_number)
     track_names = load_schedule_track_names(SCHEDULE_PATH)
-    track_stats = load_track_stats(track_names)
+    track_stats, previous_race_results = load_track_data(track_names)
     attach_track_stats(drivers, track_stats)
+    attach_previous_race_results(drivers, previous_race_results)
 
     if len(drivers) < 20:
         raise RuntimeError(f"Expected at least 20 Cup drivers, found {len(drivers)}.")
