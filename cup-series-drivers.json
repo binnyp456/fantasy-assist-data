@@ -4,7 +4,7 @@
   "sourceUrl": "https://www.nascar.com/drivers/nascar-cup-series/",
   "entryListUrl": "https://www.nascar.com/news-media/2026/06/22/2026-nascar-cup-series-entry-list-for-sonoma-raceway/",
   "driverAveragesTrackUrl": "https://www.driveraverages.com/nascar/track_avg.php?trk_id={track_id}",
-  "generatedAtUtc": "2026-06-25T12:30:18+00:00",
+  "generatedAtUtc": "2026-06-25T12:31:29+00:00",
   "drivers": [
     {
       "firstName": "Ross",
@@ -1223,7 +1223,200 @@
       "manufacturer": "Chevrolet",
       "headshotUrl": "",
       "driverPageUrl": "https://www.nascar.com/drivers/daniel-suarez",
-      "trackStats": []
+      "trackStats": [
+        {
+          "trackName": "Atlanta Motor Speedway",
+          "starts": 15,
+          "poles": 0,
+          "top10": 7,
+          "top5": 5,
+          "wins": 1
+        },
+        {
+          "trackName": "Bristol Motor Speedway",
+          "starts": 16,
+          "poles": 0,
+          "top10": 2,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "Charlotte Motor Speedway",
+          "starts": 12,
+          "poles": 0,
+          "top10": 2,
+          "top5": 1,
+          "wins": 1
+        },
+        {
+          "trackName": "Chicagoland Speedway",
+          "starts": 3,
+          "poles": 0,
+          "top10": 0,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "Circuit of The Americas",
+          "starts": 6,
+          "poles": 0,
+          "top10": 0,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "Darlington Raceway",
+          "starts": 17,
+          "poles": 0,
+          "top10": 2,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "Daytona International Speedway",
+          "starts": 18,
+          "poles": 0,
+          "top10": 2,
+          "top5": 1,
+          "wins": 0
+        },
+        {
+          "trackName": "Homestead-Miami Speedway",
+          "starts": 9,
+          "poles": 0,
+          "top10": 1,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "Indianapolis Motor Speedway",
+          "starts": 6,
+          "poles": 0,
+          "top10": 2,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "Iowa Speedway",
+          "starts": 2,
+          "poles": 0,
+          "top10": 1,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "Kansas Speedway",
+          "starts": 19,
+          "poles": 0,
+          "top10": 2,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "Las Vegas Motor Speedway",
+          "starts": 18,
+          "poles": 0,
+          "top10": 4,
+          "top5": 2,
+          "wins": 0
+        },
+        {
+          "trackName": "Martinsville Speedway",
+          "starts": 19,
+          "poles": 0,
+          "top10": 2,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "Michigan International Speedway",
+          "starts": 14,
+          "poles": 0,
+          "top10": 5,
+          "top5": 2,
+          "wins": 0
+        },
+        {
+          "trackName": "Nashville Superspeedway",
+          "starts": 6,
+          "poles": 0,
+          "top10": 1,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "New Hampshire Motor Speedway",
+          "starts": 10,
+          "poles": 0,
+          "top10": 3,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "Phoenix Raceway",
+          "starts": 19,
+          "poles": 0,
+          "top10": 4,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "Pocono Raceway",
+          "starts": 15,
+          "poles": 1,
+          "top10": 4,
+          "top5": 2,
+          "wins": 0
+        },
+        {
+          "trackName": "Richmond Raceway",
+          "starts": 16,
+          "poles": 0,
+          "top10": 5,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "Sonoma Raceway",
+          "starts": 8,
+          "poles": 0,
+          "top10": 1,
+          "top5": 1,
+          "wins": 1
+        },
+        {
+          "trackName": "Talladega Superspeedway",
+          "starts": 19,
+          "poles": 0,
+          "top10": 5,
+          "top5": 0,
+          "wins": 0
+        },
+        {
+          "trackName": "Texas Motor Speedway",
+          "starts": 14,
+          "poles": 0,
+          "top10": 7,
+          "top5": 3,
+          "wins": 0
+        },
+        {
+          "trackName": "Watkins Glen International",
+          "starts": 9,
+          "poles": 0,
+          "top10": 4,
+          "top5": 3,
+          "wins": 0
+        },
+        {
+          "trackName": "World Wide Technology Raceway",
+          "starts": 4,
+          "poles": 0,
+          "top10": 1,
+          "top5": 0,
+          "wins": 0
+        }
+      ]
     },
     {
       "firstName": "Chase",
