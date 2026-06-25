@@ -601,6 +601,23 @@ def attach_previous_race_results(
         driver["previousRaceResults"] = sorted(driver_results, key=lambda result: str(result["trackName"]))
 
 
+def validate_driver_stats_output(drivers: list[dict[str, object]]) -> None:
+    track_stats_count = sum(len(driver.get("trackStats", [])) for driver in drivers)
+    previous_results_count = sum(len(driver.get("previousRaceResults", [])) for driver in drivers)
+
+    if track_stats_count < 100:
+        raise RuntimeError(
+            f"Expected at least 100 driver track-stat rows, found {track_stats_count}. "
+            "Refusing to overwrite driver data with an incomplete scrape."
+        )
+
+    if previous_results_count < 100:
+        raise RuntimeError(
+            f"Expected at least 100 previous-race result rows, found {previous_results_count}. "
+            "Refusing to overwrite driver data with an incomplete scrape."
+        )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Update NASCAR Cup Series driver data.")
     parser.add_argument("--output", default=str(OUTPUT_PATH), help="Output JSON path.")
@@ -614,6 +631,7 @@ def main() -> None:
     track_stats, previous_race_results = load_track_data(track_names)
     attach_track_stats(drivers, track_stats)
     attach_previous_race_results(drivers, previous_race_results)
+    validate_driver_stats_output(drivers)
 
     if len(drivers) < 20:
         raise RuntimeError(f"Expected at least 20 Cup drivers, found {len(drivers)}.")
