@@ -18,6 +18,7 @@ SCHEDULE_PATH = Path("cup-series-schedule.json")
 OUTPUT_PATH = Path("cup-series-drivers.json")
 
 DRIVER_AVERAGES_TRACK_URL = "https://www.driveraverages.com/nascar/track_avg.php?trk_id={track_id}"
+DRIVER_AVERAGES_ALLSTAR_URL = "https://www.driveraverages.com/nascar/allstar.php"
 
 DRIVER_AVERAGES_TRACK_IDS = {
     "Atlanta Motor Speedway": 1,
@@ -226,6 +227,23 @@ def load_driver_averages_race_page(race_url: str) -> BeautifulSoup:
     return BeautifulSoup(response.text, "html.parser")
 
 
+def load_driver_averages_allstar_page() -> BeautifulSoup:
+    response = requests.get(
+        DRIVER_AVERAGES_ALLSTAR_URL,
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/126.0.0.0 Safari/537.36"
+            )
+        },
+        timeout=30,
+    )
+    response.raise_for_status()
+
+    return BeautifulSoup(response.text, "html.parser")
+
+
 def extract_car_number(text: str) -> str:
     match = re.search(r"Car number\s+([A-Za-z0-9-]+)", text, re.IGNORECASE)
     return clean_text(match.group(1)) if match else ""
@@ -339,6 +357,42 @@ def parse_driver_averages_track_stats(soup: BeautifulSoup) -> dict[str, dict[str
     return stats_by_driver
 
 
+def parse_driver_averages_allstar_stats(soup: BeautifulSoup) -> dict[str, dict[str, int]]:
+    stats_by_driver: dict[str, dict[str, int]] = {}
+    recent_heading = soup.find(string=re.compile(r"All-Star Race Recent Performance", re.IGNORECASE))
+
+    if recent_heading is None:
+        return stats_by_driver
+
+    current = recent_heading.parent
+    while current is not None:
+        current = current.find_next()
+        if current is None:
+            break
+
+        text = clean_text(current.get_text(" ")) if hasattr(current, "get_text") else ""
+        if "Career Stats:" in text:
+            break
+
+        if current.name != "tr":
+            continue
+
+        cells = [clean_text(cell.get_text(" ")) for cell in current.find_all(["th", "td"])]
+        if len(cells) < 7 or not cells[0].isdigit():
+            continue
+
+        driver_name = cells[1]
+        stats_by_driver[normalize_name(driver_name)] = {
+            "starts": parse_int(cells[3]),
+            "wins": parse_int(cells[4]),
+            "top5": parse_int(cells[5]),
+            "top10": parse_int(cells[6]),
+            "poles": 0,
+        }
+
+    return stats_by_driver
+
+
 def find_previous_season_driver_averages_race_url(soup: BeautifulSoup, season_year: int) -> str:
     recent_heading = soup.find(string=re.compile(r"Recent Races at", re.IGNORECASE))
     if recent_heading is None or recent_heading.parent is None:
@@ -441,7 +495,17 @@ def load_track_data(
         if stats:
             track_stats[track_name] = stats
         else:
-            print(f"Skipping DriverAverages stats for {track_name}: no stats found")
+            if track_name == "North Wilkesboro Speedway":
+                try:
+                    allstar_soup = load_driver_averages_allstar_page()
+                    stats = parse_driver_averages_allstar_stats(allstar_soup)
+                except requests.RequestException as error:
+                    print(f"Skipping All-Star stats for {track_name}: {error}")
+
+            if stats:
+                track_stats[track_name] = stats
+            else:
+                print(f"Skipping DriverAverages stats for {track_name}: no stats found")
 
         race_url = find_previous_season_driver_averages_race_url(soup, datetime.now(timezone.utc).year)
         if not race_url:
