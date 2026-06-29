@@ -4,7 +4,7 @@
   "sourceUrl": "https://www.nascar.com/drivers/nascar-cup-series/",
   "entryListUrl": "https://www.nascar.com/news-media/2026/06/22/2026-nascar-cup-series-entry-list-for-sonoma-raceway/",
   "driverAveragesTrackUrl": "https://www.driveraverages.com/nascar/track_avg.php?trk_id={track_id}",
-  "generatedAtUtc": "2026-06-25T17:26:11+00:00",
+  "generatedAtUtc": "2026-06-29T14:34:09+00:00",
   "drivers": [
     {
       "firstName": "Ross",
@@ -178,7 +178,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 6,
+          "starts": 7,
           "poles": 0,
           "top10": 4,
           "top5": 1,
@@ -634,7 +634,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 4,
+          "starts": 5,
           "poles": 0,
           "top10": 1,
           "top5": 1,
@@ -1088,7 +1088,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 11,
+          "starts": 12,
           "poles": 0,
           "top10": 0,
           "top5": 0,
@@ -1544,7 +1544,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 2,
+          "starts": 3,
           "poles": 0,
           "top10": 0,
           "top5": 0,
@@ -1998,10 +1998,10 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 11,
+          "starts": 12,
           "poles": 4,
-          "top10": 4,
-          "top5": 2,
+          "top10": 5,
+          "top5": 3,
           "wins": 2
         },
         {
@@ -2462,7 +2462,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 15,
+          "starts": 16,
           "poles": 0,
           "top10": 3,
           "top5": 1,
@@ -2926,7 +2926,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 8,
+          "starts": 9,
           "poles": 0,
           "top10": 1,
           "top5": 1,
@@ -3390,7 +3390,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 9,
+          "starts": 10,
           "poles": 0,
           "top10": 7,
           "top5": 5,
@@ -3854,7 +3854,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 6,
+          "starts": 7,
           "poles": 0,
           "top10": 0,
           "top5": 0,
@@ -4318,7 +4318,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 19,
+          "starts": 20,
           "poles": 1,
           "top10": 7,
           "top5": 4,
@@ -4782,9 +4782,9 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 9,
+          "starts": 10,
           "poles": 0,
-          "top10": 5,
+          "top10": 6,
           "top5": 1,
           "wins": 0
         },
@@ -5246,7 +5246,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 14,
+          "starts": 15,
           "poles": 1,
           "top10": 4,
           "top5": 0,
@@ -5710,7 +5710,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 9,
+          "starts": 10,
           "poles": 0,
           "top10": 3,
           "top5": 3,
@@ -6166,10 +6166,10 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 5,
+          "starts": 6,
           "poles": 0,
-          "top10": 1,
-          "top5": 1,
+          "top10": 2,
+          "top5": 2,
           "wins": 0
         },
         {
@@ -6612,10 +6612,10 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 5,
+          "starts": 6,
           "poles": 0,
-          "top10": 3,
-          "top5": 1,
+          "top10": 4,
+          "top5": 2,
           "wins": 0
         },
         {
@@ -7058,7 +7058,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 2,
+          "starts": 3,
           "poles": 0,
           "top10": 0,
           "top5": 0,
@@ -7512,7 +7512,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 16,
+          "starts": 17,
           "poles": 2,
           "top10": 7,
           "top5": 4,
@@ -7976,7 +7976,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 7,
+          "starts": 8,
           "poles": 0,
           "top10": 0,
           "top5": 0,
@@ -8440,7 +8440,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 7,
+          "starts": 8,
           "poles": 0,
           "top10": 2,
           "top5": 0,
@@ -8888,7 +8888,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 4,
+          "starts": 5,
           "poles": 0,
           "top10": 1,
           "top5": 0,
@@ -9326,7 +9326,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 1,
+          "starts": 2,
           "poles": 0,
           "top10": 0,
           "top5": 0,
@@ -9764,7 +9764,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 3,
+          "starts": 4,
           "poles": 0,
           "top10": 0,
           "top5": 0,
@@ -10202,7 +10202,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 3,
+          "starts": 4,
           "poles": 0,
           "top10": 0,
           "top5": 0,
@@ -10648,7 +10648,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 2,
+          "starts": 3,
           "poles": 0,
           "top10": 0,
           "top5": 0,
@@ -11102,7 +11102,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 8,
+          "starts": 9,
           "poles": 0,
           "top10": 2,
           "top5": 0,
@@ -11558,7 +11558,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 5,
+          "starts": 6,
           "poles": 0,
           "top10": 2,
           "top5": 0,
@@ -12012,7 +12012,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 12,
+          "starts": 13,
           "poles": 0,
           "top10": 0,
           "top5": 0,
@@ -12476,9 +12476,9 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 9,
+          "starts": 10,
           "poles": 0,
-          "top10": 2,
+          "top10": 3,
           "top5": 0,
           "wins": 0
         },
@@ -12924,7 +12924,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 5,
+          "starts": 6,
           "poles": 0,
           "top10": 0,
           "top5": 0,
@@ -13370,10 +13370,10 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 3,
-          "poles": 0,
-          "top10": 1,
-          "top5": 0,
+          "starts": 4,
+          "poles": 1,
+          "top10": 2,
+          "top5": 1,
           "wins": 0
         },
         {
@@ -13816,9 +13816,9 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 5,
+          "starts": 6,
           "poles": 0,
-          "top10": 0,
+          "top10": 1,
           "top5": 0,
           "wins": 0
         },
@@ -14280,9 +14280,9 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 13,
+          "starts": 14,
           "poles": 0,
-          "top10": 4,
+          "top10": 5,
           "top5": 3,
           "wins": 0
         },
@@ -14736,7 +14736,7 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 2,
+          "starts": 3,
           "poles": 0,
           "top10": 0,
           "top5": 0,
@@ -15141,6 +15141,14 @@
           "wins": 0
         },
         {
+          "trackName": "Sonoma Raceway",
+          "starts": 1,
+          "poles": 0,
+          "top10": 1,
+          "top5": 0,
+          "wins": 0
+        },
+        {
           "trackName": "Talladega Superspeedway",
           "starts": 1,
           "poles": 0,
@@ -15362,11 +15370,11 @@
         },
         {
           "trackName": "Sonoma Raceway",
-          "starts": 1,
+          "starts": 2,
           "poles": 1,
-          "top10": 1,
-          "top5": 1,
-          "wins": 1
+          "top10": 2,
+          "top5": 2,
+          "wins": 2
         },
         {
           "trackName": "Talladega Superspeedway",
